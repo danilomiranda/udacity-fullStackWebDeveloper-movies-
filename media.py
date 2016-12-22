@@ -8,6 +8,3 @@ class Movie(video.Video):
                 trailer_youtube):
         video.Video.__init__(self,movie_title, movie_storyline, poster_image,
                     trailer_youtube)
-
-    def show_trailer(self):
-        webbrowser.open(self.trailer_youtube_url)
